@@ -875,14 +875,23 @@ footer {
     text-align: center;
 }
 
+
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
+    text-align: left;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     color: #777;
     line-height: 40px;
 }
+
+@media(min-width:768px) {
+    footer span.copyright{
+        text-align: center; 
+    }
+}
+
 
 footer ul.quicklinks {
     margin-bottom: 0;
@@ -891,6 +900,12 @@ footer ul.quicklinks {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
     color: #777;
+}
+
+@media(min-width:768px) {
+    footer ul.quicklinks{
+        text-align: center; 
+    }
 }
 
 ul.social-buttons {
