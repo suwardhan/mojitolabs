@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #157f0d;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #157f0d;
 }
 
 h1,
@@ -98,6 +98,18 @@ h6 {
     margin: 0 auto;
     text-transform: none;
     color: #fff;
+    line-height: 35px;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.works-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-transform: none;
+    color: #777;
     line-height: 35px;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
@@ -780,6 +792,12 @@ section#about {
     padding: 150px 0;
 }
 
+section#works {
+    background-color: #e6e6e6;
+    /*background-image: url(../img/about-image.png);*/
+    padding: 150px 0;
+}
+
 section#quote {
     background-color: #222;
     background-image: url(../img/quote-image.png);
@@ -870,8 +888,9 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: #777;
 }
 
 ul.social-buttons {
@@ -1011,4 +1030,8 @@ body {
 .col-centered{
 float: none;
 margin: 0 auto;
+}
+
+.parallax {
+
 }

@@ -12,7 +12,7 @@
     <title>Mojito Labs</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo-small.png"></a>
+                <a class="navbar-brand page-scroll" href="#page-top" style="padding: 0 15px"><img src="img/logo-small.svg"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -61,9 +61,9 @@
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
-                    <!--<li>
-                        <a class="page-scroll" href="#">CLients</a>
-                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="#works">Works</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact Us</a>
                     </li>
@@ -80,23 +80,25 @@
             <div class="intro-text">
                 <img src="img/banner.jpg" class="img-responsive" style="margin: 0 auto">
                 <div class="intro-heading">Mojito Labs</div>
-                <div class="intro-lead-in">We are a design studio specilized in mobile app design for iOS</div>
+                <div class="intro-lead-in">We are a design studio specialized in mobile app design for iOS</div>
                 <!--<a href="#services" class="page-scroll btn btn-xl"></a>-->
             </div>
         </div>
     </header>
 
-    <section id="about">
+
+    <section id="about" data-center="background-position: 0% 100%" data-bottom-top="background-position: 0% 20%" data-anchor-target="#about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="about-heading">About Us</h2>
                     <div class="col-lg-12  text-center responsive">
-                        <img src="img/apple-love.png" class="img-responsive" style="margin: 0 auto; padding-top:20px;">
+                        <img src="img/apple-love.svg" style="margin: 0 auto; padding-top:20px;">
                     </div>
-                    <h3 class="about-content text-muted">We are a small team of creative technology thinkers and makers, specialized in app designing and we love developing them. We are passionate about the things we build and our ways are dynamic.</h3>
+                    <h3 class="about-content text-muted">We love Apple. We are a small team of creative technology thinkers and makers, specialized in iOS app designing and love developing them. We are passionate about the things we build and our ways are dynamic.</h3>
                 </div>
             </div>
+        </div>
     </section>
 
 
@@ -114,7 +116,7 @@
                     <span class="fa-stack fa-4x">
                         <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
                         <!--<i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>-->
-                        <img src="img/services/ux.png">
+                        <img src="img/services/ux.svg">
                     </span>
                     <h4 class="service-heading">User Experience Design</h4>
                     <p class="text-muted service-description">Every interface needs a solid foundation. Well-executed UX exposes and helps us diagnose design challenges before they become problems.</p>
@@ -123,7 +125,7 @@
                     <span class="fa-stack fa-4x">
                         <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
                         <!--<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>-->
-                        <img src="img/services/interface.png">
+                        <img src="img/services/interface.svg">
                     </span>
                     <h4 class="service-heading">Interface Design</h4>
                     <p class="text-muted service-description">Great user interface goes deeper than pretty pixels. We create interfaces that are delightful and intuitive.</p>
@@ -132,35 +134,42 @@
                     <span class="fa-stack fa-4x">
                         <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>-->
                         <!--<i class="fa fa-lock fa-stack-1x fa-inverse"></i>-->
-                        <img src="img/services/development.png">
+                        <img src="img/services/development.svg">
                     </span>
                     <h4 class="service-heading">Development</h4>
                     <p class="text-muted service-description">We love bringing our concepts to life, whether it's on the web, desktop, mobile, or all three, using a variety of languages and platforms.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+
+    <!-- Works Section -->
+     <section id="works">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="col-md-6 col-sm-12" style="padding-top: 100px">
-                        <img src="img/services/mockup1.png">
-                    </div>
-                    <div class="col-md-3 col-sm-12" style="padding-top: 150px">     
-                        <h2 class="section-heading services-heading" style="text-align:left">Works</h2>
-                        <p class="text-muted service-description">We love bringing our concepts to life, whether it's on the web, desktop, mobile, or all three, using a variety of languages and platforms.</p>
+                    <h2 class="section-heading services-heading">Works</h2>
+                    <h3 class="works-content text-muted">We follow Human Interface guidelines but never restrict ourselves in doing stuff out of the box. We are a dynamic team always up-to-date with all the latest designs and developing trends.</h3>
+                    <div class="col-lg-12  text-center responsive">
+                        <img src="img/works/mockups.jpg" style="margin: 100px auto">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="col-md-6 col-sm-12" style="padding-top: 150px">
-                        <p class="text-muted service-description">We love bringing our concepts to life, whether it's on the web, desktop, mobile, or all three, using a variety of languages and platforms.</p>
-                    </div>
-                    <div class="col-md-4 col-sm-12" style="padding-top: 100px">
-                        <img src="img/services/mockup2.png">
-                    </div>
+                    <h3 class="works-content text-muted">Smooth and comfortable user experience is always our priority. We work to enhance it by improving the look and feel of the app.</h3>
                 </div>
             </div>
         </div>
     </section>
+
+          
+
+
+
+
 
 
     <!-- Portfolio Grid Section -->
@@ -316,6 +325,23 @@
                     <h3 class="contact-content text-muted">Whether you’re building a mobile app, designing a marketing website, or working on the next great application - we’ve got you covered.</h3>
                 </div>
             </div>
+            <div class="row row-centered">
+                <div class="col-md-6 col-sm-12" style="padding: 50px 0">
+                    <p class="text-muted service-description" style="text-align:center; color:#ff712e; font-size: 20px">Call Us</p>
+                    <h4 class="service-heading" style="text-align:center; color:#404040; font-size: 36px">+91-8486261739</h4>
+                    
+                </div>
+                <div class="col-md-6 col-sm-12" style="padding: 50px 0">
+                    <p class="text-muted service-description" style="text-align:center; color:#ff712e; font-size: 20px">Mail Us</p>
+                    <h4 class="service-heading" style="text-align:center; color:#404040; font-size: 36px">hello@mojitolabs.in</h4>
+                    
+                </div>
+            </div>
+
+
+
+
+            <!--Form
             <div class="row">
                 <div class="col-lg-12">
                     <form name="sentMessage" id="contactForm" novalidate>
@@ -348,12 +374,14 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div>-->
+
+
+
         </div>
     </section>
 
-
-    <section id="quote">
+    <section id="quote" data-center="background-position: 0% 50%" data-bottom-top="background-position: 0% 100%" data-anchor-target="#quote">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -362,10 +390,12 @@
             </div>
     </section>
 
+
+
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6 col-sm-6" style="text-align:left">
                     <span class="copyright">Copyright &copy; Mojito Labs 2015</span>
                 </div>
                 <!--<div class="col-md-4">
@@ -377,26 +407,34 @@
                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
-                </div>
-                <div class="col-md-4">
+                </div>-->
+                <div class="col-md-6 col-sm-6" style="text-align:right" class="copyright">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li>
+                            <a class="page-scroll" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#works">Works</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="https://www.facebook.com/pages/Mojito-Labs/308412096022400" target="blank">Facebook</a>
                         </li>
                     </ul>
-                </div>-->
+                </div>
             </div>
         </div>
     </footer>
 
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- jQuery load from CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript load from CDN-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -409,6 +447,34 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <!-- Parallax Scroll -->
+    <script src="js/scroll.min.js"></script>
+    <script type="text/javascript" src="http://www.perdixglobal.com/wp-content/themes/patti/js/smoothScroll.js?ver=1.2.1"></script>
+   
+   <!-- <script type="text/javascript">
+    
+jQuery(window).load( function() {
+
+    // Parallax Bgs for rows
+    jQuery('[class*="parallax"]').each( function() {     
+        var $div = jQuery(this);
+        var token = $div.data('token');
+        var settingObj = window['dt_parallax_' + token];
+
+        if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )) {   
+            jQuery('.parallax-'+settingObj.id+'').parallax("50%", 0.4, false);
+        }
+        
+        // Parallax Fix for Mobile Devices
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            jQuery('.parallax-'+settingObj.id+'').css({'background-attachment': 'scroll'});
+        }
+
+    });
+
+});
+    </script>-->
 
 </body>
 
