@@ -303,7 +303,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    color: #808080;
+    color: #fff;
 }
 
 .navbar-default .nav li a:hover,
@@ -362,9 +362,10 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #15800d;
+    color: #fff;
+    background-image: url("../img/careers-banner.jpg");
     background-attachment: scroll;
-    /*background-image: url(../img/header-bg.jpg);*/
+    background-color: #116636;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -380,8 +381,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    margin-top: 80px;
-    color:#777;
+    color:#fff;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -391,42 +391,39 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 50px;
+    padding-top: 20px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 100px;
-        padding-bottom: 200px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     header .intro-text .intro-lead-in {
-        border-top: double 4px #999;
-        border-bottom: double 4px #999;
         margin: 0 auto;
         margin-bottom: 0px;
-        margin-top: 54px;
-        padding: 20px;
-        color: #404040;
+        margin-top: 0px;
+        padding-top: 5px;
+        color: #fff;
         font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 20px;
         font-style: normal;
-        line-height: 40px;
-        max-width: 850px;
+        line-height: 32px;
+        max-width: 725px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 0px;
-        margin-top: -50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 78px;
-        font-weight: 700;
+        margin-top: 36px;
+        font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 48px;
+        font-weight: normal;
         line-height: 75px;
     }
 }
@@ -785,7 +782,7 @@ aside.clients img {
 
 
 section#about {
-    background-color: #116636;
+    background-color: #fff;
     /*background-image: url(../img/about-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
