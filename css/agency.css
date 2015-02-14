@@ -163,12 +163,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #009b00;
     text-transform: uppercase;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     color: #fff;
-    background-color: #fed136;
+    background-color: #009b00;
 }
 
 .btn-primary:hover,
@@ -176,9 +176,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #007d00;
     color: #fff;
-    background-color: #fec503;
+    background-color: #007d00;
 }
 
 .btn-primary:active,
@@ -491,7 +491,7 @@ section h3.section-subheading {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -499,7 +499,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(0,0,0,.2);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -532,7 +532,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
+    max-width: 300px;
     text-align: center;
     background-color: #fff;
 }
@@ -974,6 +974,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    padding: 50px 0;
 }
 
 .portfolio-modal .close-modal {
@@ -993,7 +994,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 45px;
     margin-left: 35px;
     background-color: #222;
     -webkit-transform: rotate(45deg);
@@ -1004,7 +1005,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 45px;
     background-color: #222;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
